@@ -126,7 +126,10 @@ button:hover {
   width: 1rem;
 }
 
-@media screen and (max-width: 465px) {
+@media screen and (max-width: 580px) {
+  body {
+    padding: 1rem 6rem;
+  }
   .card {
     /* display: block; */
     grid-template-columns: 1fr;
@@ -146,6 +149,12 @@ button:hover {
 
   .price-container {
     margin-bottom: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  body {
+    padding: 1rem;
   }
 }
 
